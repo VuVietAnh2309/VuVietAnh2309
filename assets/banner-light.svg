@@ -1,0 +1,18 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#a7f3d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" fill="url(#g)"/>
+  <text x="60" y="120" font-family="Inter,system-ui,Segoe UI" font-size="48" font-weight="700" fill="#0f172a">
+    Viet Anh Vu — AI Engineer
+  </text>
+  <text x="60" y="170" font-family="Inter,system-ui,Segoe UI" font-size="22" fill="#334155">
+    Healthcare AI • LLMs • Computer Vision • Ensembles
+  </text>
+  <text x="60" y="210" font-family="Inter,system-ui,Segoe UI" font-size="16" fill="#334155">
+    Hanoi, Viet Nam · mrvietanh2@gmail.com
+  </text>
+</svg>

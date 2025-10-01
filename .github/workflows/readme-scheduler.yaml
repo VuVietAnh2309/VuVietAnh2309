@@ -1,0 +1,11 @@
+name: Keep Profile Active
+on:
+  schedule:
+    - cron: "0 9 * * 1"  # mỗi thứ 2
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Keeping profile active"

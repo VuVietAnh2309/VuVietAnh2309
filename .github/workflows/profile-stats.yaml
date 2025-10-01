@@ -1,0 +1,21 @@
+name: Refresh README badges
+on:
+  schedule:
+    - cron: "0 3 * * *"  # chạy 1 lần/ngày
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Touch README (force re-render external cards)
+        run: |
+          sed -i '1s/^/<!-- ping: '"$(date -u +%Y-%m-%dT%H:%M:%SZ)"' -->\n/' README.md
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh cards" || echo "No changes to commit"
+          git push
