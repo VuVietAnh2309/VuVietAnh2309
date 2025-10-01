@@ -45,7 +45,7 @@
 <details>
 <summary><b>AI Healthcare Assistant for Hospital Management</b> — LLMs, NLP, HIS integration</summary>
 • Built AI agents for medical history inquiry, initial diagnosis support; integrated with HIS for real-time workflow.  
-• LLMs for **prescription recommendation** and **conflict detection** (duplicate active ingredients, DDI).  
+• LLMs for <b>prescription recommendation</b> and <b>conflict detection</b> (duplicate active ingredients, DDI).  
 </details>
 
 <details>
@@ -103,7 +103,7 @@
 ## Publication
 
 - **VISTA**: Variable-Length GA + LSTM Surrogate for Ensemble Selection in MLES — **IEEE SCCI 2024**  
-  <sub>Kate Han, Truong Thanh Nguyen, Viet Anh Vu, Alan W.-C. Liew & Tien Thanh Nguyen. :contentReference[oaicite:11]{index=11}</sub>
+  <sub>Kate Han, Truong Thanh Nguyen, Viet Anh Vu, Alan W.-C. Liew & Tien Thanh Nguyen.</sub>
 
 ---
 
