@@ -6,7 +6,7 @@
 
 <h1 align="center">Hi, I'm Viet Anh Vu 👋</h1>
 <p align="center">
-  <b>AI Engineer</b> — Healthcare AI • LLMs • Computer Vision • Ensemble Learning
+  <b>AI Engineer</b> — Healthcare AI 🏥 • LLMs 🤖 • Computer Vision 👁️ • Ensembles ⚡
 </p>
 
 <p align="center">
@@ -15,6 +15,8 @@
   </a>
   <img alt="Location" src="https://img.shields.io/badge/Hanoi-Viet%20Nam-orange?logo=google-maps">
   <img alt="Lang" src="https://img.shields.io/badge/English-B2-blue">
+ </p>
+ <p align="center"> 
   <img alt="Focus" src="https://img.shields.io/badge/Focus-Healthcare%20AI%20%7C%20LLMs%20%7C%20CV-success">
   <img alt="Visitors" src="https://komarev.com/ghpvc/?username=VuVietAnh2309&label=Profile%20views&style=flat">
 </p>
@@ -28,7 +30,7 @@
 - 💊 Focus: LLMs for **clinical QA** & **decision support**; CV for **medical/underwater** imaging  
 - 🏆 **WiDS Datathon 2023** – 2nd Prize (ensemble forecasting)  
 - 🔭 Now: AI Engineer @ **Vietsens Technology Group** — building Healthcare AI Assistant integrated with **National Hospital Management Software** (used at **Bach Mai Hospital**)  
-- 📫 **vietanhresearcher@gmail.com**
+- 📫 Email: **vietanhresearcher@gmail.com**
 
 ---
 
@@ -38,7 +40,7 @@
 - **LLMs**: RAG, evaluation, prompt engineering; medical QA systems  
 - **Computer Vision**: FER on edge, OCR for financial docs, underwater segmentation  
 - **ML**: Ensembles, time-series, imputation, genetic algorithms
-
+- **NLP**: Aspect-based Sentiment Analysis
 ---
 
 ## 🚀 Selected projects
