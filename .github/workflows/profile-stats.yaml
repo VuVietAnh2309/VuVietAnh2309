@@ -19,3 +19,18 @@ jobs:
           git add README.md
           git commit -m "chore: refresh cards" || echo "No changes to commit"
           git push
+
+name: Profile Summary Cards
+on:
+  schedule: [{ cron: "0 0 * * 1" }]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: VuVietAnh2309
+          UTC_OFFSET: +7

@@ -1,0 +1,17 @@
+name: Profile Summary Cards
+
+on:
+  schedule: # chạy 1 lần/tuần
+    - cron: "0 0 * * 1"
+  workflow_dispatch: # cho phép chạy tay
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: VuVietAnh2309   # 👈 thay username của bạn
+          UTC_OFFSET: +7           # múi giờ VN
