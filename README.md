@@ -27,8 +27,6 @@
 - 🔭 Now: AI Engineer @ **Vietsens Technology Group** (Sep 2024 – present), building an AI Healthcare Assistant integrated with **National Hospital Management Software** (adopted by **Bach Mai Hospital**).  
 - 📫 Reach me at **mrvietanh2@gmail.com**.
 
-<sub>Facts above are summarized from my CV (education, prize, and roles). :contentReference[oaicite:1]{index=1}</sub>
-
 ---
 
 ## What I do
@@ -48,43 +46,36 @@
 <summary><b>AI Healthcare Assistant for Hospital Management</b> — LLMs, NLP, HIS integration</summary>
 • Built AI agents for medical history inquiry, initial diagnosis support; integrated with HIS for real-time workflow.  
 • LLMs for **prescription recommendation** and **conflict detection** (duplicate active ingredients, DDI).  
-<sub>From work at Vietsens Technology Group. :contentReference[oaicite:2]{index=2}</sub>
 </details>
 
 <details>
 <summary><b>VISTA (IEEE SCCI 2024)</b> — Variable-Length GA + LSTM Surrogate for Ensemble Selection</summary>
 • MLES with VLGA-encoded ensembles, LSTM surrogate for fitness; outperformed baselines on 15 datasets.  
-<sub>Authored with Kate Han et al., 2024 (IEEE SCCI). :contentReference[oaicite:3]{index=3}</sub>
 </details>
 
 <details>
 <summary><b>Lightweight FER (MobileNetV2 + Patch Extraction + Attention)</b></summary>
 • Edge-friendly FER; robust to occlusion & head pose; competitive on RAF-DB, FER2013, FERPlus.  
-<sub>Manuscript under review. :contentReference[oaicite:4]{index=4}</sub>
 </details>
 
 <details>
 <summary><b>OCR for Financial Reports</b> — PaddleOCR/Tesseract/TrOCR + LayoutLM(v3)</summary>
 • Pre/post-processing pipeline, NER + regex normalization; doc layout understanding for tables/KV extraction.  
-<sub>Internship @ FPT Information System. :contentReference[oaicite:5]{index=5}</sub>
 </details>
 
 <details>
 <summary><b>Image Captioning</b> — CNN/Transformers + Attention</summary>
 • Generated descriptive captions with attention-based architectures.  
-<sub>Internship @ FPT Information System. :contentReference[oaicite:6]{index=6}</sub>
 </details>
 
 <details>
 <summary><b>VLSP 2021 – Speaker Verification</b> — ECAPA-TDNN/RawNet3</summary>
 • Deep speaker embeddings with triplet/softmax/proto losses; robust verification pipeline.  
-<sub>Competition project. :contentReference[oaicite:7]{index=7}</sub>
 </details>
 
 <details>
 <summary><b>WiDS Datathon 2023</b> — Extreme Weather Forecasting</summary>
 • Time series + ensemble (GBM/LGBM/CatBoost); 2nd prize.  
-<sub>Competition summary. :contentReference[oaicite:8]{index=8}</sub>
 </details>
 
 ---
@@ -97,7 +88,6 @@
 **Data**: pandas, NumPy, SciPy, Matplotlib  
 **Topics**: Ensembles, GA, Time-series, Imputation, RAG, Evaluation
 
-<sub>Summarized from CV. :contentReference[oaicite:9]{index=9}</sub>
 
 ---
 
@@ -107,7 +97,6 @@
 - WiDS Datathon 2023 — 2nd Prize  
 - IBM Python for Data Science (cert.)
 
-<sub>From CV. :contentReference[oaicite:10]{index=10}</sub>
 
 ---
 
