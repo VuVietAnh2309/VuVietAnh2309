@@ -121,7 +121,7 @@
 ## Contact
 
 - Email: **mrvietanh2@gmail.com**  
-- CV (PDF): see [`data/VuVietAnh_CurriculumVitae_sdh_ms.pdf`](data/VuVietAnh_CV.pdf)
+- CV (PDF): see [`data/VuVietAnh_CurriculumVitae_sdh_ms.pdf`](data/VuVietAnh_CurriculumVitae_sdh_ms.pdf)
 
 ---
 
