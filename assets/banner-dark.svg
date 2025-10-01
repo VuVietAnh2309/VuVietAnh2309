@@ -1,19 +1,50 @@
 <svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0" x2="1">
+    <!-- Gradient nền -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Gradient chữ tên -->
+    <linearGradient id="textGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <!-- Gradient trang trí -->
+    <linearGradient id="circleGrad" x1="0" x2="1">
       <stop offset="0%" stop-color="#0ea5e9"/>
       <stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="280" fill="#020617"/>
-  <circle cx="1050" cy="140" r="180" fill="url(#g)" opacity="0.15"/>
-  <text x="60" y="120" font-family="Inter,system-ui,Segoe UI" font-size="48" font-weight="700" fill="#e2e8f0">
-    Viet Anh Vu — AI Engineer
+
+  <!-- Nền -->
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- Vòng tròn trang trí -->
+  <circle cx="1050" cy="100" r="150" fill="url(#circleGrad)" opacity="0.15"/>
+  <circle cx="950" cy="200" r="100" fill="url(#circleGrad)" opacity="0.2"/>
+
+  <!-- Tên -->
+  <text x="60" y="100" font-family="Inter,system-ui,Segoe UI" font-size="56" font-weight="700" fill="url(#textGrad)">
+    Viet Anh Vu
   </text>
-  <text x="60" y="170" font-family="Inter,system-ui,Segoe UI" font-size="22" fill="#94a3b8">
-    Healthcare AI • LLMs • Computer Vision • Ensembles
+
+  <!-- AI Engineer (đậm) -->
+  <text x="60" y="145" font-family="Inter,system-ui,Segoe UI" font-size="28" font-weight="700" fill="#f1f5f9">
+    👨‍💻 AI Engineer
   </text>
-  <text x="60" y="210" font-family="Inter,system-ui,Segoe UI" font-size="16" fill="#94a3b8">
-    Hanoi, Viet Nam · mrvietanh2@gmail.com
+
+  <!-- Specialization -->
+  <text x="60" y="185" font-family="Inter,system-ui,Segoe UI" font-size="22" fill="#cbd5e1">
+    ⚕️ Healthcare AI • 🤖 RAG &amp; LLMs • 👁️ Computer Vision • ⚡ Ensembles
   </text>
+
+  <!-- Contact -->
+  <a href="mailto:vietanhresearcher@gmail.com">
+    <text x="60" y="220" font-family="Inter,system-ui,Segoe UI" font-size="16" fill="#94a3b8">
+      Hanoi, Viet Nam · vietanhresearcher@gmail.com
+    </text>
+  </a>
 </svg>
