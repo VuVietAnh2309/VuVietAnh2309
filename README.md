@@ -123,27 +123,30 @@
 - CV (PDF): [`data/VuVietAnh_CurriculumVitae_sdh_ms.pdf`](data/VuVietAnh_CurriculumVitae_sdh_ms.pdf)
 
 ---
-
 ## 📈 GitHub at a glance
 
-<!-- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VuVietAnh2309&show_icons=true&hide=issues&rank_icon=github" height="140" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=VuVietAnh2309" height="140" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VuVietAnh2309&layout=compact" height="140" />
-</p> -->
-
-<!-- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VuVietAnh2309&show_icons=true&theme=radical" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=VuVietAnh2309&theme=radical&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VuVietAnh2309&layout=compact&theme=radical" height="150"/>
-</p> -->
-
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VuVietAnh2309&show_icons=true&theme=radical&cache_seconds=1800" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=VuVietAnh2309&theme=radical&hide_border=true&cache_seconds=1800" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VuVietAnh2309&layout=compact&theme=radical&cache_seconds=1800" height="150"/>
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <!-- Stats -->
+      <img src="https://github-readme-stats.vercel.app/api?username=VuVietAnh2309&show_icons=true&theme=radical&hide=prs,contribs&cache_seconds=1800&hide_border=true" width="100%"/>
+    </td>
+    <td width="50%">
+      <!-- Profile Details -->
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VuVietAnh2309&theme=radical&cache_seconds=1800" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <!-- Top Languages -->
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VuVietAnh2309&layout=compact&theme=radical&cache_seconds=1800&hide_border=true" width="100%"/>
+    </td>
+    <td width="50%">
+      <!-- Productive Time -->
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VuVietAnh2309&theme=radical&cache_seconds=1800" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
