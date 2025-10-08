@@ -110,6 +110,19 @@
 
 ---
 
+## 🌐 Kaggle & Competitions
+
+- [**Kaggle Profile**](https://www.kaggle.com/vitanhvaa)  
+
+### 📊 Competitions
+- 🎮 **Predict Student Performance from Game Play**  
+
+- 🌍 **WiDS Datathon 2023** 
+
+- 🧠 **WiDS Datathon 2025** 
+
+---
+
 ## 📚 Publication
 
 - **VISTA**: Variable-Length GA + LSTM Surrogate for Ensemble Selection in MLES — **IEEE SCCI 2024**  
@@ -117,22 +130,6 @@
 
 ---
 
-
-## 🌐 Kaggle & Competitions
-
-- [**Kaggle Profile**](https://www.kaggle.com/vitanhvaa)  
-
-### 📊 Competitions
-- 🎮 **Predict Student Performance from Game Play**  
-  *Educational data mining, time-series & feature engineering*  
-
-- 🌍 **WiDS Datathon 2023** 
-  *Extreme weather forecasting using ensemble models (GBM/LGBM/CatBoost)*  
-
-- 🧠 **WiDS Datathon 2025** 
-  *Brain health & ADHD sex patterns — applied ML pipelines & interpretability*  
-
----
 
 ## 📎 Contact & CV
 
@@ -146,7 +143,7 @@
   <tr>
     <td width="50%">
       <!-- Stats -->
-      <img src="https://github-readme-stats.vercel.app/api?username=VuVietAnh2309&show_icons=true&theme=radical&hide=prs,contribs&cache_seconds=300&hide_border=true" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=VuVietAnh2309&show_icons=true&theme=radical&hide=prs,contribs&cache_seconds=600&hide_border=true" width="100%"/>
     </td>
     <td width="50%">
       <!-- Profile Details -->
