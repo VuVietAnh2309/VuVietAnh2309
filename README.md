@@ -4,16 +4,17 @@
   <img alt="Viet Anh Vu — AI Engineer" src="assets/banner-light.svg">
 </picture>
 
-<h1 align="center">Viet Anh Vu</h1>
-<p align="center">
-  <b>AI Engineer</b> — Healthcare AI • EdTech AI • LLMs & RAG • Computer Vision • MLOps
-</p>
-
 <p align="center">
   <a href="mailto:mrvietanh2@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/Email-mrvietanh2%40gmail.com-informational?logo=gmail">
   </a>
+  <a href="https://www.linkedin.com/in/viet-anh-vu-30a268336/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Viet%20Anh%20Vu-blue?logo=linkedin">
+  </a>
   <img alt="Location" src="https://img.shields.io/badge/Hanoi-Viet%20Nam-orange?logo=google-maps">
+  <a href="data/resume.pdf">
+    <img alt="CV" src="https://img.shields.io/badge/CV-resume.pdf-critical?logo=adobeacrobatreader">
+  </a>
   <img alt="Visitors" src="https://komarev.com/ghpvc/?username=VuVietAnh2309&label=Profile%20views&style=flat">
 </p>
 
@@ -111,13 +112,6 @@
 - **MSc, Computer Science** — HUST (Jun 2025 – Present)
 - **BSc (Honours), Computer Science** — HUST (Oct 2020 – Jul 2024) — GPA 3.48/4.0
 - **WiDS Datathon 2023** — 2nd Prize (Extreme Weather Forecasting)
-
----
-
-## Contact
-
-- Email: **mrvietanh2@gmail.com**
-- CV: [`resume.pdf`](data/resume.pdf)
 
 ---
 
