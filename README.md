@@ -134,7 +134,7 @@
 ## 📎 Contact & CV
 
 - Email: **vietanhresearcher@gmail.com**  
-- CV (PDF): [`data/VuVietAnh_CurriculumVitae_sdh_ms.pdf`](data/VuVietAnh_CurriculumVitae_sdh_ms.pdf)
+- CV (PDF): [`data/resume.pdf`](data/resume.pdf)
 
 ---
 ## 📈 GitHub at a glance
@@ -143,7 +143,7 @@
   <tr>
     <td width="50%">
       <!-- Stats -->
-      <img src="https://github-readme-stats.vercel.app/api?username=VuVietAnh2309&show_icons=true&theme=radical&hide=prs,contribs&cache_seconds=600&hide_border=true" width="100%"/>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VuVietAnh2309&theme=radical" width="100%"/>
     </td>
     <td width="50%">
       <!-- Profile Details -->
@@ -153,7 +153,7 @@
   <tr>
     <td width="50%">
       <!-- Top Languages -->
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VuVietAnh2309&layout=compact&theme=radical&cache_seconds=1800&hide_border=true" width="100%"/>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=VuVietAnh2309&theme=radical" width="100%"/>
     </td>
     <td width="50%">
       <!-- Productive Time -->
