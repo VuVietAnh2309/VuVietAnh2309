@@ -1,50 +1,80 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Gradient nền sáng -->
     <linearGradient id="bg-light" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#f8fafc"/>
-      <stop offset="100%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
     </linearGradient>
-
-    <!-- Gradient chữ -->
-    <linearGradient id="textGradLight" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0ea5e9"/>
-      <stop offset="100%" stop-color="#10b981"/>
+    <linearGradient id="nameGradL" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
-
-    <!-- Gradient trang trí -->
-    <linearGradient id="circleGradLight" x1="0" x2="1">
-      <stop offset="0%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#34d399"/>
+    <linearGradient id="accentL" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
     </linearGradient>
+    <radialGradient id="orbL1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbL2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- Nền -->
-  <rect width="1200" height="280" fill="url(#bg-light)"/>
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg-light)"/>
 
-  <!-- Vòng tròn trang trí -->
-  <circle cx="1050" cy="100" r="150" fill="url(#circleGradLight)" opacity="0.15"/>
-  <circle cx="950" cy="200" r="100" fill="url(#circleGradLight)" opacity="0.2"/>
+  <!-- Glowing orbs -->
+  <circle cx="950" cy="80" r="200" fill="url(#orbL1)"/>
+  <circle cx="1100" cy="230" r="150" fill="url(#orbL2)"/>
 
-  <!-- Tên -->
-  <text x="60" y="100" font-family="Inter,system-ui,Segoe UI" font-size="56" font-weight="700" fill="url(#textGradLight)">
+  <!-- Hexagon decorations -->
+  <polygon points="1000,30 1035,50 1035,90 1000,110 965,90 965,50" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.15"/>
+  <polygon points="1100,80 1130,97 1130,131 1100,148 1070,131 1070,97" fill="none" stroke="#0284c7" stroke-width="1" opacity="0.12"/>
+  <polygon points="1050,170 1075,185 1075,213 1050,228 1025,213 1025,185" fill="none" stroke="#7c3aed" stroke-width="0.8" opacity="0.1"/>
+  <polygon points="940,200 960,212 960,236 940,248 920,236 920,212" fill="none" stroke="#0284c7" stroke-width="0.8" opacity="0.08"/>
+  <polygon points="1160,160 1178,170 1178,190 1160,200 1142,190 1142,170" fill="none" stroke="#7c3aed" stroke-width="0.6" opacity="0.08"/>
+
+  <!-- Small floating dots -->
+  <circle cx="920" cy="55" r="2.5" fill="#7c3aed" opacity="0.2"/>
+  <circle cx="1155" cy="45" r="2" fill="#0284c7" opacity="0.18"/>
+  <circle cx="1080" cy="260" r="2.5" fill="#7c3aed" opacity="0.15"/>
+  <circle cx="870" cy="180" r="2" fill="#0284c7" opacity="0.15"/>
+  <circle cx="1170" cy="130" r="1.5" fill="#7c3aed" opacity="0.2"/>
+  <circle cx="900" cy="130" r="1.5" fill="#059669" opacity="0.12"/>
+  <circle cx="1020" cy="250" r="1.5" fill="#0284c7" opacity="0.12"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accentL)"/>
+
+  <!-- Name -->
+  <text x="70" y="95" font-family="'Segoe UI',system-ui,sans-serif" font-size="52" font-weight="800" fill="url(#nameGradL)">
     Viet Anh Vu
   </text>
 
-  <!-- AI Engineer -->
-  <text x="60" y="145" font-family="Inter,system-ui,Segoe UI" font-size="28" font-weight="700" fill="#1e293b">
-    👨‍💻 AI Engineer
+  <!-- Role pill -->
+  <rect x="70" y="112" width="145" height="30" rx="15" fill="#7c3aed" opacity="0.1"/>
+  <text x="93" y="133" font-family="'Segoe UI',system-ui,sans-serif" font-size="15" font-weight="700" fill="#7c3aed">
+    AI Engineer
   </text>
+
+  <!-- Divider line -->
+  <rect x="70" y="155" width="60" height="2" rx="1" fill="url(#accentL)" opacity="0.4"/>
 
   <!-- Specialization -->
-  <text x="60" y="185" font-family="Inter,system-ui,Segoe UI" font-size="22" fill="#334155">
-    ⚕️ Healthcare AI • 📚 EdTech AI • 🤖 RAG &amp; LLMs • 👁️ Computer Vision
+  <text x="70" y="185" font-family="'Segoe UI',system-ui,sans-serif" font-size="18" fill="#475569" letter-spacing="0.5">
+    Healthcare AI  ·  EdTech AI  ·  LLMs &amp; RAG  ·  Computer Vision
   </text>
 
-  <!-- Contact -->
+  <!-- Contact line -->
   <a href="mailto:mrvietanh2@gmail.com">
-    <text x="60" y="220" font-family="Inter,system-ui,Segoe UI" font-size="16" fill="#475569">
-      Hanoi, Viet Nam · mrvietanh2@gmail.com
+    <text x="70" y="225" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" fill="#94a3b8">
+      Hanoi, Viet Nam  ·  mrvietanh2@gmail.com  ·  MSc @ HUST
     </text>
   </a>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="297" width="1200" height="3" fill="url(#accentL)"/>
 </svg>
