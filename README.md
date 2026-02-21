@@ -4,159 +4,139 @@
   <img alt="Viet Anh Vu — AI Engineer" src="assets/banner-light.svg">
 </picture>
 
-<h1 align="center">Hi, I'm Viet Anh Vu 👋</h1>
+<h1 align="center">Viet Anh Vu</h1>
 <p align="center">
-  <b>AI Engineer</b> — Healthcare AI 🏥 • RAG & LLMs 🤖 • Computer Vision 👁️ • Ensembles ⚡
+  <b>AI Engineer</b> — Healthcare AI • EdTech AI • LLMs & RAG • Computer Vision • MLOps
 </p>
 
 <p align="center">
-  <a href="mailto:vietanhresearcher@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-vietanhresearcher%40gmail.com-informational?logo=gmail">
+  <a href="mailto:mrvietanh2@gmail.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-mrvietanh2%40gmail.com-informational?logo=gmail">
   </a>
   <img alt="Location" src="https://img.shields.io/badge/Hanoi-Viet%20Nam-orange?logo=google-maps">
-  <img alt="Lang" src="https://img.shields.io/badge/English-B2-blue">
- </p>
- <p align="center"> 
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-Healthcare%20AI%20%7C%20RAG%20&%20LLMs%20%7C%20Computer%20Vision-success">
   <img alt="Visitors" src="https://komarev.com/ghpvc/?username=VuVietAnh2309&label=Profile%20views&style=flat">
 </p>
 
 ---
 
-## ✨ About me
+## About me
 
-- 🎓 BSc (Hanoi University of Science and Technology), GPA 3.48/4.0  
-- 🧪 ~2 years with ML/DL & LLM projects (academia + industry)  
-- 💊 Focus: LLMs for **clinical QA** & **decision support**; CV for **medical/underwater** imaging  
-- 🏆 **WiDS Datathon 2023** – 2nd Prize (ensemble forecasting)  
-- 🔭 Now: AI Engineer @ **Vietsens Technology Group** — building Healthcare AI Assistant integrated with **National Hospital Management Software** (used at **Bach Mai Hospital**)  
-- 📫 Reach me at: **vietanhresearcher@gmail.com**
----
-
-## 🛠️ What I do
-
-- **Healthcare AI**: LLM triage, prescription support (duplicate/interaction checks), EMR features  
-- **LLMs**: RAG, evaluation, prompt engineering; medical QA systems  
-- **Computer Vision**: FER on edge, OCR for financial docs, underwater segmentation  
-- **ML**: Ensembles, time-series, imputation, genetic algorithms
-- **NLP**: Aspect-based Sentiment Analysis
----
-
-## 🚀 Selected projects
-
-> Click to expand each project
-
-<details>
-<summary><b>AI Healthcare Assistant for Hospital Management</b> — LLMs, NLP, HIS integration</summary>
-• AI agents for medical history inquiry & initial diagnosis; integrated with HIS for real-time workflow  
-• LLMs for <b>PRESCRIPTION RECOMMENDATION</b> and <b>CONFLICT DETECTION</b> (duplicate ingredients, DDI)
-</details>
-
-<details>
-<summary><b>VISTA (IEEE SCCI 2024)</b> — Variable-Length GA + LSTM Surrogate for Ensemble Selection</summary>
-• MLES with VLGA-encoded ensembles, LSTM surrogate for fitness; outperformed baselines on 15 datasets
-</details>
-
-<details>
-<summary><b>Lightweight FER</b> (MobileNetV2 + Patch Extraction + Attention)</summary>
-• Edge-friendly, robust to occlusion & head pose; competitive on RAF-DB, FER2013, FERPlus
-</details>
-
-<details>
-<summary><b>OCR for Financial Reports</b> — PaddleOCR/Tesseract/TrOCR + LayoutLM(v3)</summary>
-• Pre/post-processing, NER + regex normalization; table/KV extraction with doc-layout understanding
-</details>
-
-<details>
-<summary><b>Image Captioning</b> — CNN/Transformers + Attention</summary>
-• Attention-based captioning pipeline
-</details>
-
-<details>
-<summary><b>VLSP 2021 – Speaker Verification</b> — ECAPA-TDNN/RawNet3</summary>
-• Deep speaker embeddings with triplet/softmax/proto losses
-</details>
-
-<details>
-<summary><b>WiDS Datathon 2023</b> — Extreme Weather Forecasting</summary>
-• Time series + ensemble (GBM/LGBM/CatBoost); 2nd prize
-</details>
+- MSc in Computer Science @ **HUST** (Jun 2025 – Present) | BSc (Honours), GPA 3.48/4.0
+- AI Engineer @ **Prep Education** — Automated Essay Scoring & Grammar Correction for IELTS
+- Previously: AI Engineer @ **Vietsens Technology Group** — Healthcare AI integrated with National Hospital Management Software (Bach Mai Hospital)
+- Research: Ensemble Learning, Computer Vision — 2 manuscripts under review
+- Publication: **VISTA** — IEEE SCCI 2024
 
 ---
 
-## 🧰 Skills & Tools
+## Experience
+
+### Prep Education — AI Engineer (Oct 2025 – Present)
+
+<details>
+<summary><b>Automated Essay Scoring (AES)</b> — IELTS Writing & Speaking</summary>
+
+- **Speaking**: ML + APA (pronunciation) + GEC (grammar) + Dify (vocabulary). Accuracy ±0.5 ~82%, QWK & PCC ~90%
+- **Writing**: Cross-prompt DeBERTa-V3 (189M params), quantized T5 (120M params). Accuracy ±0.5 ~85–87%, ±1 ~98%
+- End-to-end MLOps: Docker → GitLab CI/CD → ArgoCD → Kubernetes
+- Dynamic batching & request queuing for thousands of concurrent assessments
+</details>
+
+<details>
+<summary><b>English Lexical Grammar (ELG) Correction</b> — Rule-based + LLMs</summary>
+
+- Hybrid grammar correction: rule-based pattern matching + LLM inference
+- Covers grammatical errors, vocabulary misuse, spelling, collocations, idiomatic expressions, linking devices
+- F0.5 ~60% on private test sets
+- Production: Docker + GitLab CI/CD + ArgoCD on Kubernetes, request batching & caching
+</details>
+
+### Vietsens Technology Group — AI Engineer (Sep 2024 – Sep 2025)
+
+<details>
+<summary><b>AI Healthcare Assistant</b> — LLMs, NLP, HIS integration</summary>
+
+- AI agents for medical history inquiry & initial diagnosis, integrated with National Hospital Management Software (Bach Mai Hospital)
+- Modules for patient data analysis, case management, and diagnostic support
+</details>
+
+<details>
+<summary><b>Prescription Recommendation & Conflict Detection</b></summary>
+
+- Predictive system for medication prescribing based on patient records
+- LLMs for duplicate active ingredient detection & drug-drug interaction identification
+</details>
+
+### FPT Information System — AI Engineer Intern (Aug 2023 – May 2024)
+
+<details>
+<summary><b>OCR for Financial Reports</b> — PaddleOCR, TrOCR, LayoutLMv3</summary>
+
+- End-to-end OCR pipeline: preprocessing → text detection → layout understanding → NER + regex normalization
+- Table & key-value extraction from bank financial reports
+</details>
+
+---
+
+## Research & Publication
+
+- **VISTA** (IEEE SCCI 2024) — Variable-Length GA + LSTM Surrogate for Ensemble Selection in MLES
+  <sub>Kate Han, Truong Thanh Nguyen, **Viet Anh Vu**, Alan W.-C. Liew & Tien Thanh Nguyen</sub>
+- **Underwater Image Segmentation** — ResNet denoising + UNet_v2 / V_UNet *(manuscript under review)*
+- **Lightweight FER** — MobileNetV2 + Patch Extraction + Attention for edge devices *(manuscript under review)*
+
+---
+
+## Skills & Tools
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-red?logo=pytorch)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?logo=tensorflow)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ff9f1c?logo=scikitlearn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![GitLab CI/CD](https://img.shields.io/badge/GitLab%20CI%2FCD-FC6D26?logo=gitlab&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?logo=argo&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?logo=plotly)
 ![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
-**Topics**: Ensembles • Genetic Algorithms • Time-series • Imputation • RAG • Evaluation
+**ML/DL**: LLMs, RAG, Computer Vision, NLP, Ensemble Learning, Genetic Algorithms
+**MLOps**: Docker, Kubernetes, GitLab CI/CD, ArgoCD, Dynamic Batching, Model Serving
+**OCR**: PaddleOCR, Tesseract, TrOCR, LayoutLM/v3
 
 ---
 
-## 🎓 Education & 🏅 Achievements
+## Education & Achievements
 
-- BSc with Honours, HUST — GPA 3.48/4.0  
-- WiDS Datathon 2023 — 2nd Prize  
-- IBM Python for Data Science (cert.)
-
----
-
-## 🌐 Kaggle & Competitions
-
-- [**Kaggle Profile**](https://www.kaggle.com/vitanhvaa)  
-
-### 📊 Competitions
-- 🎮 **Predict Student Performance from Game Play**  
-
-- 🌍 **WiDS Datathon 2023** 
-
-- 🧠 **WiDS Datathon 2025** 
+- **MSc, Computer Science** — HUST (Jun 2025 – Present)
+- **BSc (Honours), Computer Science** — HUST (Oct 2020 – Jul 2024) — GPA 3.48/4.0
+- **WiDS Datathon 2023** — 2nd Prize (Extreme Weather Forecasting)
 
 ---
 
-## 📚 Publication
+## Contact
 
-- **VISTA**: Variable-Length GA + LSTM Surrogate for Ensemble Selection in MLES — **IEEE SCCI 2024**  
-  <sub>Kate Han, Truong Thanh Nguyen, Viet Anh Vu, Alan W.-C. Liew & Tien Thanh Nguyen.</sub>
-
----
-
-
-## 📎 Contact & CV
-
-- Email: **vietanhresearcher@gmail.com**  
-- CV (PDF): [`data/resume.pdf`](data/resume.pdf)
+- Email: **mrvietanh2@gmail.com**
+- CV: [`resume.pdf`](data/resume.pdf)
 
 ---
-## 📈 GitHub at a glance
+
+## GitHub at a glance
 
 <table>
   <tr>
     <td width="50%">
-      <!-- Stats -->
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VuVietAnh2309&theme=radical" width="100%"/>
     </td>
     <td width="50%">
-      <!-- Profile Details -->
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VuVietAnh2309&theme=radical&cache_seconds=1800" width="100%"/>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <!-- Top Languages -->
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=VuVietAnh2309&theme=radical" width="100%"/>
     </td>
     <td width="50%">
-      <!-- Productive Time -->
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VuVietAnh2309&theme=radical&cache_seconds=1800" width="100%"/>
     </td>
   </tr>
@@ -164,15 +144,6 @@
 
 ---
 
-## 🤝 How I can help your team
-
-- Build **LLM features** (RAG, evaluation, guardrails) for production apps, đặc biệt y tế/fintech  
-- Design **CV/Imaging pipelines** (OCR, document AI, segmentation, FER)  
-- **Ensemble learning** & **genetic algorithms** cho mô hình mạnh/ổn định
-
----
-
-<!-- Decorative wave divider -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00c6ff,100:10b981&height=80&section=footer"/>
 </p>
