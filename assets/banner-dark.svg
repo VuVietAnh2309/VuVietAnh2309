@@ -38,13 +38,13 @@
 
   <!-- Specialization -->
   <text x="60" y="185" font-family="Inter,system-ui,Segoe UI" font-size="22" fill="#cbd5e1">
-    ⚕️ Healthcare AI • 🤖 RAG &amp; LLMs • 👁️ Computer Vision • ⚡ Ensembles
+    ⚕️ Healthcare AI • 📚 EdTech AI • 🤖 RAG &amp; LLMs • 👁️ Computer Vision
   </text>
 
   <!-- Contact -->
   <a href="mailto:vietanhresearcher@gmail.com">
     <text x="60" y="220" font-family="Inter,system-ui,Segoe UI" font-size="16" fill="#94a3b8">
-      Hanoi, Viet Nam · vietanhresearcher@gmail.com
+      Hanoi, Viet Nam · mrvietanh2@gmail.com
     </text>
   </a>
 </svg>

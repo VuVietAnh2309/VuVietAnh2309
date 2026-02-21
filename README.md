@@ -82,8 +82,8 @@
 
 - **VISTA** (IEEE SCCI 2024) — Variable-Length GA + LSTM Surrogate for Ensemble Selection in MLES
   <sub>Kate Han, Truong Thanh Nguyen, **Viet Anh Vu**, Alan W.-C. Liew & Tien Thanh Nguyen</sub>
-- **Underwater Image Segmentation** — ResNet denoising + UNet_v2 / V_UNet *(manuscript under review)*
-- **Lightweight FER** — MobileNetV2 + Patch Extraction + Attention for edge devices *(manuscript under review)*
+- **Application of Deep Learning Network in Underwater Image Recognition and Segmentation** — ResNet denoising + UNet_v2 / V_UNet *(manuscript under review)*
+- **Enhancing Facial Expression Recognition with Lightweight Attention-Based CNN** — MobileNetV2 + Patch Extraction + Attention for edge devices *(manuscript under review)*
 
 ---
 
