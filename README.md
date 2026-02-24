@@ -37,6 +37,7 @@
 - 🏥 Previously @ **Vietsens Technology Group** — Healthcare AI for Bach Mai Hospital
 - 📄 Published at **IEEE SCCI 2024** | 2 manuscripts under review
 - 🏆 **WiDS Datathon 2023** — 2nd Prize
+- 📎 CV: [`resume.pdf`](data/resume.pdf)
 
 ---
 
