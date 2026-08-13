@@ -65,13 +65,13 @@
 
   <!-- Specialization -->
   <text x="70" y="185" font-family="'Segoe UI',system-ui,sans-serif" font-size="18" fill="#94a3b8" letter-spacing="0.5">
-    Healthcare AI  ·  EdTech AI  ·  LLMs &amp; RAG  ·  Computer Vision
+    EdTech AI  ·  Healthcare AI  ·  LLM Serving  ·  Computer Vision
   </text>
 
   <!-- Contact line -->
-  <a href="mailto:mrvietanh2@gmail.com">
+  <a href="mailto:vietanhresearcher@gmail.com">
     <text x="70" y="225" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" fill="#64748b">
-      Hanoi, Viet Nam  ·  mrvietanh2@gmail.com  ·  MSc @ HUST
+      Hanoi, Viet Nam  ·  vietanhresearcher@gmail.com  ·  MSc @ HUST
     </text>
   </a>
 
