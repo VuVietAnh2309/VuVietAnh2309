@@ -37,8 +37,11 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: VuVietAnh2309
-          filename: assets/metrics.svg
-          output_action: none # chỉ ghi file, commit gộp ở step cuối
+          # output_action: none => metrics KHÔNG tự commit, chỉ ghi file ra
+          # /metrics_renders/<filename> trên runner (ngoài workspace), nên phải
+          # copy vào assets/ ở step sau rồi commit gộp một lần.
+          filename: metrics.svg
+          output_action: none
           template: classic
           base: header, activity, community, repositories
           config_timezone: Asia/Ho_Chi_Minh
@@ -46,6 +49,19 @@ jobs:
           plugin_languages_limit: 8
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      # Fail to nếu không có file, thay vì im lặng "success" mà giữ placeholder.
+      - name: Move metrics render into assets/
+        run: |
+          src=/metrics_renders/metrics.svg
+          if [[ ! -s "$src" ]]; then
+            echo "::error::Không tìm thấy metrics render tại $src"
+            ls -laR /metrics_renders || true
+            exit 1
+          fi
+          sudo cp "$src" assets/metrics.svg
+          sudo chown "$(id -u):$(id -g)" assets/metrics.svg
+          echo "Đã copy $(wc -c < assets/metrics.svg) bytes -> assets/metrics.svg"
 
       # Animation "con rắn" ăn contribution graph, 2 bản light/dark.
       - name: Build contribution snake
