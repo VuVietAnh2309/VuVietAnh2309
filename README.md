@@ -158,7 +158,9 @@ PP-OCRv5 (detect + recognise)
     <td>📖</td>
     <td>
       <b>Enhancing facial expression recognition with lightweight attention-based CNN</b><br/>
-      <sub><b>Viet Anh Vu</b>, Gia Khanh Pham, Quy Nam Tran, Son Tung Do, Danh Tuyen Pham & Van Hai Pham</sub><br/>
+      <sub><b>Viet Anh Vu</b>, Gia Khanh Pham, Quy Nam Tran, Son Tung Do,
+      <a href="https://scholar.google.com/citations?hl=en&user=z0ThpI3yfS8C">Danh Tuyen Pham</a> &
+      <a href="https://scholar.google.com/citations?hl=en&user=C0XxcJcAAAAJ">Van Hai Pham</a></sub><br/>
       <sub><i>Journal of Ambient Intelligence and Humanized Computing</i> (Springer), 10 Aug 2026</sub><br/>
       <a href="https://doi.org/10.1007/s12652-026-05116-0">
         <img src="https://img.shields.io/badge/Springer_JAIHC_2026-Published-success?style=flat-square" alt="Published"/>
@@ -170,7 +172,8 @@ PP-OCRv5 (detect + recognise)
     <td>📖</td>
     <td>
       <b>VISTA</b> — A Variable Length Genetic Algorithm and LSTM-Based Surrogate Assisted Ensemble Selection algorithm in Multiple Layers Ensemble System<br/>
-      <sub>Kate Han, Truong Thanh Nguyen, <b>Viet Anh Vu</b>, Alan Wee-Chung Liew, Truong Dang & Tien Thanh Nguyen</sub><br/>
+      <sub>Kate Han, Truong Thanh Nguyen, <b>Viet Anh Vu</b>, Alan Wee-Chung Liew, Truong Dang &
+      <a href="https://scholar.google.com/citations?hl=en&user=Pjxn9IUAAAAJ">Tien Thanh Nguyen</a></sub><br/>
       <sub><i>2024 IEEE Congress on Evolutionary Computation (CEC)</i>, Yokohama, Japan, 30 Jun – 5 Jul 2024, pp. 1–9</sub><br/>
       <a href="https://doi.org/10.1109/CEC60901.2024.10612029">
         <img src="https://img.shields.io/badge/IEEE_CEC_2024-Published-success?style=flat-square" alt="Published"/>
@@ -182,11 +185,13 @@ PP-OCRv5 (detect + recognise)
 
 **Research supervision**
 
-| Supervisor | Since | Area |
-|-----------|-------|------|
-| Dr. Kate Han & Dr. Thanh Nguyen | Mar 2023 | Machine Learning & Ensemble Learning · Genetic Algorithms · statistical testing |
-| Assoc. Prof. Pham Van Hai · HUST | Sep 2023 | Computer Vision & Deep Learning |
-| [Dr. Pham Danh Tuyen](https://sea.ptit.edu.vn/ts-pham-danh-tuyen/) · PTIT | Dec 2024 | Computer Vision · image processing · machine learning on edge devices |
+| Supervisor | Affiliation | Since | Area |
+|-----------|------------|-------|------|
+| Dr. Kate Han & [Dr. Tien Thanh Nguyen](https://scholar.google.com/citations?hl=en&user=Pjxn9IUAAAAJ) <sub>🎓</sub> | Robert Gordon University <sub>(T.T. Nguyen)</sub> | Mar 2023 | Machine Learning & Ensemble Learning · Genetic Algorithms · statistical testing |
+| [Assoc. Prof. Pham Van Hai](https://scholar.google.com/citations?hl=en&user=C0XxcJcAAAAJ) <sub>🎓</sub> | HUST — SoICT | Sep 2023 | Computer Vision & Deep Learning |
+| [Dr. Pham Danh Tuyen](https://scholar.google.com/citations?hl=en&user=z0ThpI3yfS8C) <sub>🎓</sub> | [PTIT](https://sea.ptit.edu.vn/ts-pham-danh-tuyen/) — School of Electronics Engineering 1 | Dec 2024 | Computer Vision · image processing · machine learning on edge devices |
+
+<sub>🎓 = Google Scholar</sub>
 
 ---
 
