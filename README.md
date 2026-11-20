@@ -382,7 +382,7 @@ PP-OCRv5 (detect + recognise)
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
-    <img src="assets/metrics.svg" alt="GitHub metrics" width="80%"/>
+    <img src="assets/metrics.svg" alt="GitHub metrics" width="480"/>
   </picture>
 </p>
 
