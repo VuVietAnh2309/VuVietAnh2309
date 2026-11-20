@@ -13,6 +13,8 @@ on:
     paths-ignore:
       - "assets/metrics.svg"
       - "assets/metrics-dark.svg"
+      - "assets/activity.svg"
+      - "assets/activity-dark.svg"
       - "assets/snake.svg"
       - "assets/snake-dark.svg"
       - "README.md"
@@ -48,8 +50,8 @@ jobs:
           config_timezone: Asia/Ho_Chi_Minh
           plugin_languages: yes
           plugin_languages_limit: 8
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          # Lịch 3D đã thay bằng biểu đồ đường cong assets/activity*.svg (step bên dưới).
+          plugin_isocalendar: no
 
       # Fail to nếu không có file, thay vì im lặng "success" mà giữ placeholder.
       - name: Move metrics render into assets/
@@ -75,6 +77,12 @@ jobs:
               -e 's/#216e39/#39d353/gI' \
               assets/metrics.svg > assets/metrics-dark.svg
 
+      # Biểu đồ đường cong contribution theo tuần (light + dark), tự vẽ bằng Python.
+      - name: Build activity curve chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/activity_chart.py VuVietAnh2309 assets 52
+
       # Animation "con rắn" ăn contribution graph, 2 bản light/dark.
       - name: Build contribution snake
         uses: Platane/snk@v3
@@ -89,6 +97,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore(assets): refresh profile cards [skip ci]"
-          file_pattern: assets/metrics.svg assets/metrics-dark.svg assets/snake.svg assets/snake-dark.svg
+          file_pattern: assets/metrics.svg assets/metrics-dark.svg assets/activity.svg assets/activity-dark.svg assets/snake.svg assets/snake-dark.svg
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
