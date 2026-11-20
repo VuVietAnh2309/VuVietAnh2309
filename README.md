@@ -40,10 +40,9 @@
 
 - 🏢 **AI Engineer @ Prep Education** — Automated Essay Scoring, grammar correction & LLM serving for IELTS learners
 - 🎓 **MSc, Computer Science** @ HUST (Jun 2025 – Present, CPA 3.71/4.0) · BSc (Honours), CPA 3.48/4.0
-- 📄 **2 published papers** — [IEEE CEC 2024](https://doi.org/10.1109/CEC60901.2024.10612029) · [Springer JAIHC 2026](https://doi.org/10.1007/s12652-026-05116-0)
+- 📄 **Publications** — [IEEE CEC 2024](https://doi.org/10.1109/CEC60901.2024.10612029) · [Springer JAIHC 2026](https://doi.org/10.1007/s12652-026-05116-0)
+- 🏆 **Awards** — 🥈 VLSP 2026 (Top 1 private test) · 🥈 WiDS Datathon 2023 (Kaggle)
 - ⚡ Day-to-day: **vLLM** (continuous batching, PagedAttention), async GPU batching, Docker → GitLab CI/CD → ArgoCD → K8s
-- 🏆 **2nd Place — VLSP 2026** (Top 1 private test score) — ViTNumChart, VLM-based financial chart QA
-- 🏆 **2nd Place — WiDS Datathon 2023** (Kaggle) — extreme weather forecasting
 - 📎 CV: [`resume.pdf`](data/resume.pdf) · 🌐 [vuvietanh2309.github.io](https://vuvietanh2309.github.io/)
 
 ---
@@ -168,6 +167,15 @@ PP-OCRv5 (detect + recognise)
 
 ---
 
+## 🏆 Awards & Competitions
+
+| | Award | Event | Year |
+|---|-------|-------|------|
+| 🥈 | **2nd Place** — Top 1 private test score | **VLSP 2026** · ViTNumChart: numerical reasoning QA over financial charts (VLM-based FinQA) | 2026 |
+| 🥈 | **2nd Place** | **WiDS Datathon 2023** (Kaggle) · extreme weather forecasting | 2023 |
+
+---
+
 ## 📚 Publications
 
 <table>
@@ -200,7 +208,11 @@ PP-OCRv5 (detect + recognise)
   </tr>
 </table>
 
-**Research supervision**
+---
+
+## 🔬 Research
+
+**Supervision**
 
 | Supervisor | Affiliation | Since | Area |
 |-----------|------------|-------|------|
@@ -210,16 +222,7 @@ PP-OCRv5 (detect + recognise)
 
 <sub>🎓 = Google Scholar</sub>
 
-**Other research:** imputation survey on 15 UCI datasets — SimpleImputer, KNN, MICE, GINN evaluated for downstream classification.
-
----
-
-## 🏆 Achievements
-
-| | Award | Event | Year |
-|---|-------|-------|------|
-| 🥈 | **2nd Place** — Top 1 private test score | **VLSP 2026** · ViTNumChart: numerical reasoning QA over financial charts (VLM-based FinQA) | 2026 |
-| 🥈 | **2nd Place** | **WiDS Datathon 2023** (Kaggle) · extreme weather forecasting | 2023 |
+**Other work:** imputation survey on 15 UCI datasets — SimpleImputer, KNN, MICE, GINN evaluated for downstream classification.
 
 ---
 
