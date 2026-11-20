@@ -6,7 +6,7 @@
 
 <!-- Typing animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=680&lines=Automated+Essay+Scoring+%40+Prep+Education;LLM+Serving%3A+vLLM+%2B+PagedAttention;Healthcare+AI+%7C+EdTech+AI+%7C+Computer+Vision;IEEE+CEC+2024+%26+Springer+JAIHC+2026" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=680&lines=Automated+Essay+Scoring+%40+Prep+Education;LLM+Serving%3A+vLLM+%2B+PagedAttention;Healthcare+AI+%7C+EdTech+AI+%7C+Computer+Vision;IEEE+CEC+2024+%26+Springer+JAIHC+2026;2nd+Place+%E2%80%94+VLSP+2026+(Top+1+private+test)" alt="Typing SVG"/>
 </p>
 
 <!-- Badges -->
@@ -19,6 +19,9 @@
   </a>
   <a href="https://orcid.org/0009-0006-6977-5922">
     <img src="https://img.shields.io/badge/ORCID-0009--0006--6977--5922-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/>
+  </a>
+  <a href="https://vuvietanh2309.github.io/">
+    <img src="https://img.shields.io/badge/Website-vuvietanh2309.github.io-7c3aed?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website"/>
   </a>
   <a href="data/resume.pdf">
     <img src="https://img.shields.io/badge/CV-resume.pdf-critical?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV"/>
@@ -36,11 +39,12 @@
 > AI Engineer & MSc student — I build and **ship** ML/LLM systems to production, mostly in Education and Healthcare.
 
 - 🏢 **AI Engineer @ Prep Education** — Automated Essay Scoring, grammar correction & LLM serving for IELTS learners
-- 🎓 **MSc, Computer Science** @ HUST (Jun 2025 – Present) · BSc (Honours), CPA 3.48/4.0
+- 🎓 **MSc, Computer Science** @ HUST (Jun 2025 – Present, CPA 3.71/4.0) · BSc (Honours), CPA 3.48/4.0
 - 📄 **2 published papers** — [IEEE CEC 2024](https://doi.org/10.1109/CEC60901.2024.10612029) · [Springer JAIHC 2026](https://doi.org/10.1007/s12652-026-05116-0)
 - ⚡ Day-to-day: **vLLM** (continuous batching, PagedAttention), async GPU batching, Docker → GitLab CI/CD → ArgoCD → K8s
-- 🏆 **2nd Prize — WiDS Datathon 2023** (Kaggle)
-- 📎 CV: [`resume.pdf`](data/resume.pdf)
+- 🏆 **2nd Place — VLSP 2026** (Top 1 private test score) — ViTNumChart, VLM-based financial chart QA
+- 🏆 **2nd Place — WiDS Datathon 2023** (Kaggle) — extreme weather forecasting
+- 📎 CV: [`resume.pdf`](data/resume.pdf) · 🌐 [vuvietanh2309.github.io](https://vuvietanh2309.github.io/)
 
 ---
 
@@ -109,7 +113,7 @@ PP-OCRv5 (detect + recognise)
   **Streamlit** dev UI, packaged with Docker + NVIDIA Container Toolkit
 </details>
 
-### <img src="https://img.shields.io/badge/2024--2025-1e88e5?style=flat-square" alt="2024-2025"/> Vietsens Technology Group — AI Engineer · Sep 2024 – Sep 2025
+### <img src="https://img.shields.io/badge/2024--2025-1e88e5?style=flat-square" alt="2024-2025"/> Vietsens Technology Group — AI Engineer · Oct 2024 – Sep 2025
 
 <details>
 <summary>🏥 <b>AI Healthcare Assistant</b> — LLMs, NLP, HIS integration</summary>
@@ -147,6 +151,19 @@ PP-OCRv5 (detect + recognise)
 <br/>
 
 - Caption generation with Transformers + CNNs and attention mechanisms
+</details>
+
+### <img src="https://img.shields.io/badge/Student-8e24aa?style=flat-square" alt="Student"/> HUST — Student projects & competitions · Sep 2022 – Sep 2024
+
+<details>
+<summary>🎓 <b>WiDS Datathon 2023 · VLSP 2021 Speaker Verification · Vietnamese ABSA</b></summary>
+<br/>
+
+| Project | Details |
+|---------|---------|
+| **WiDS Datathon 2023** (Kaggle) — 🥈 2nd Place | Extreme-weather forecasting on time-series data; ensemble of Gradient Boosting, LightGBM and CatBoost |
+| **Vietnamese Speaker Verification** (VLSP 2021) | ECAPA-TDNN, ECAPA-CNN-TDNN, RawNet3; triplet / softmax / prototypical losses |
+| **Aspect-Based Sentiment Analysis** (NLP Lab) | Vietnamese ABSA with SA-Transformer + POS tagging & biaffine parsing; self-annotated domain data |
 </details>
 
 ---
@@ -192,6 +209,17 @@ PP-OCRv5 (detect + recognise)
 | [Dr. Pham Danh Tuyen](https://scholar.google.com/citations?hl=en&user=z0ThpI3yfS8C) <sub>🎓</sub> | [PTIT](https://sea.ptit.edu.vn/ts-pham-danh-tuyen/) — School of Electronics Engineering 1 | Dec 2024 | Computer Vision · image processing · machine learning on edge devices |
 
 <sub>🎓 = Google Scholar</sub>
+
+**Other research:** imputation survey on 15 UCI datasets — SimpleImputer, KNN, MICE, GINN evaluated for downstream classification.
+
+---
+
+## 🏆 Achievements
+
+| | Award | Event | Year |
+|---|-------|-------|------|
+| 🥈 | **2nd Place** — Top 1 private test score | **VLSP 2026** · ViTNumChart: numerical reasoning QA over financial charts (VLM-based FinQA) | 2026 |
+| 🥈 | **2nd Place** | **WiDS Datathon 2023** (Kaggle) · extreme weather forecasting | 2023 |
 
 ---
 
@@ -294,7 +322,7 @@ PP-OCRv5 (detect + recognise)
 | [Automated_Essay_Scoring](https://github.com/VuVietAnh2309/Automated_Essay_Scoring) | Automated essay scoring |
 | [Rec_System](https://github.com/VuVietAnh2309/Rec_System) | Recommender systems |
 | [Image_generation](https://github.com/VuVietAnh2309/Image_generation) | Generative image modelling |
-| [poster_vlsp2026](https://github.com/VuVietAnh2309/poster_vlsp2026) | VLSP 2026 poster (LaTeX) |
+| [poster_vlsp2026](https://github.com/VuVietAnh2309/poster_vlsp2026) | VLSP 2026 poster — ViTNumChart, 🥈 2nd Place (LaTeX) |
 
 </details>
 
@@ -359,7 +387,7 @@ PP-OCRv5 (detect + recognise)
 
 | | Degree / Certification | Institution | Period |
 |---|--------|------------|--------|
-| 🎓 | **MSc, Computer Science** | HUST | Jun 2025 – Present |
+| 🎓 | **MSc, Computer Science** | HUST — CPA 3.71/4.0 | Jun 2025 – Present |
 | 🎓 | **BSc (Honours), Computer Science** | HUST — CPA 3.48/4.0 | Oct 2020 – Jul 2024 |
 | 📜 | IBM Python for Data Science | IBM | Completed |
 | 📜 | Intro to Machine Learning | Kaggle | Completed |
