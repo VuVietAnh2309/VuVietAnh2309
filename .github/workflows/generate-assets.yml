@@ -9,7 +9,7 @@ on:
     - cron: "0 3 * * *" # 10:00 giờ VN mỗi ngày
   workflow_dispatch: # cho phép chạy tay
   push:
-    branches: [main, preview-calendar]
+    branches: [main]
     paths-ignore:
       - "assets/metrics.svg"
       - "assets/metrics-dark.svg"
