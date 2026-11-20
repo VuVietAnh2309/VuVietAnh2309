@@ -12,6 +12,7 @@ on:
     branches: [main, preview-calendar]
     paths-ignore:
       - "assets/metrics.svg"
+      - "assets/metrics-dark.svg"
       - "assets/snake.svg"
       - "assets/snake-dark.svg"
       - "README.md"
@@ -63,6 +64,17 @@ jobs:
           sudo chown "$(id -u):$(id -g)" assets/metrics.svg
           echo "Đã copy $(wc -c < assets/metrics.svg) bytes -> assets/metrics.svg"
 
+      # Bản dark: ô trống #ebedf0 (trắng loá trên nền tối) -> xám đậm, và các mức
+      # xanh light -> bảng màu dark của GitHub (càng nhiều commit càng sáng).
+      - name: Build dark variant of metrics card
+        run: |
+          sed -e 's/#ebedf0/#161b22/gI' \
+              -e 's/#9be9a8/#0e4429/gI' \
+              -e 's/#40c463/#006d32/gI' \
+              -e 's/#30a14e/#26a641/gI' \
+              -e 's/#216e39/#39d353/gI' \
+              assets/metrics.svg > assets/metrics-dark.svg
+
       # Animation "con rắn" ăn contribution graph, 2 bản light/dark.
       - name: Build contribution snake
         uses: Platane/snk@v3
@@ -77,6 +89,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore(assets): refresh profile cards [skip ci]"
-          file_pattern: assets/metrics.svg assets/snake.svg assets/snake-dark.svg
+          file_pattern: assets/metrics.svg assets/metrics-dark.svg assets/snake.svg assets/snake-dark.svg
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com

@@ -299,7 +299,10 @@ PP-OCRv5 (detect + recognise)
 <sub>All cards below are generated inside this repo by GitHub Actions and committed as static SVGs — no external service to go down.</sub>
 
 <p align="center">
-  <img src="assets/metrics.svg" alt="GitHub metrics" width="80%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+    <img src="assets/metrics.svg" alt="GitHub metrics" width="80%"/>
+  </picture>
 </p>
 
 <p align="center">
