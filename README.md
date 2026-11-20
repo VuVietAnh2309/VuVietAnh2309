@@ -279,6 +279,80 @@ PP-OCRv5 (detect + recognise)
 | [Image_generation](https://github.com/VuVietAnh2309/Image_generation) ⭐2 | Generative image modelling notebooks |
 | [HPC---Laplace](https://github.com/VuVietAnh2309/HPC---Laplace) | High-performance computing — Laplace solver in C |
 
+### 🗂️ All repositories by area
+
+<details open>
+<summary><b>🔬 Research & Publications</b> — papers, datasets, research code</summary>
+
+| Repo | Topic |
+|------|-------|
+| [FER_Lightweight_CNN_based_model](https://github.com/VuVietAnh2309/FER_Lightweight_CNN_based_model) | Lightweight facial expression recognition (JAIHC 2026) |
+| [medical_fusion_image](https://github.com/VuVietAnh2309/medical_fusion_image) | Multimodal medical image fusion — models |
+| [Image_fusion_datasets](https://github.com/VuVietAnh2309/Image_fusion_datasets) | CoRe-Fusion datasets |
+| [medical_fusion_topic_research](https://github.com/VuVietAnh2309/medical_fusion_topic_research) | Medical image fusion — literature & topic research |
+| [adaptive_information_retrival](https://github.com/VuVietAnh2309/adaptive_information_retrival) | Adaptive information retrieval |
+| [Automated_Essay_Scoring](https://github.com/VuVietAnh2309/Automated_Essay_Scoring) | Automated essay scoring |
+| [Rec_System](https://github.com/VuVietAnh2309/Rec_System) | Recommender systems |
+| [Image_generation](https://github.com/VuVietAnh2309/Image_generation) | Generative image modelling |
+| [poster_vlsp2026](https://github.com/VuVietAnh2309/poster_vlsp2026) | VLSP 2026 poster (LaTeX) |
+
+</details>
+
+<details>
+<summary><b>🤖 Applied AI — LLM · RAG · Speech · Agents</b></summary>
+
+| Repo | Topic |
+|------|-------|
+| [3D_office_agents](https://github.com/VuVietAnh2309/3D_office_agents) | 3D office visualising Claude Code agent sessions |
+| [Fundamental_RAG](https://github.com/VuVietAnh2309/Fundamental_RAG) | Retrieval-Augmented Generation fundamentals |
+| [RAG_Gemini](https://github.com/VuVietAnh2309/RAG_Gemini) | RAG with Gemini |
+| [Chatbot](https://github.com/VuVietAnh2309/Chatbot) | Chatbot |
+| [VA-VSS](https://github.com/VuVietAnh2309/VA-VSS) | Virtual assistant for customer-care Q&A |
+| [Speech-to-text](https://github.com/VuVietAnh2309/Speech-to-text) | Speech recognition |
+| [auto-transcribe-audio-file](https://github.com/VuVietAnh2309/auto-transcribe-audio-file) | Batch audio transcription |
+| [SQL_supported](https://github.com/VuVietAnh2309/SQL_supported) | SQL assistant |
+
+</details>
+
+<details>
+<summary><b>🏥 Healthcare AI</b></summary>
+
+| Repo | Topic |
+|------|-------|
+| [Drugs_Recommendation](https://github.com/VuVietAnh2309/Drugs_Recommendation) | Drug recommendation |
+| [Drug_Medical_Suggestion](https://github.com/VuVietAnh2309/Drug_Medical_Suggestion) | Medication suggestion |
+| [Goi_y_toa_thuoc](https://github.com/VuVietAnh2309/Goi_y_toa_thuoc) | Prescription suggestion |
+| [Deploy_application_medical_drugs](https://github.com/VuVietAnh2309/Deploy_application_medical_drugs) | Deployment of the drug-suggestion app |
+| [medical_tool](https://github.com/VuVietAnh2309/medical_tool) | Medical tooling |
+| [SQL_medical](https://github.com/VuVietAnh2309/SQL_medical) | Medical database / SQL |
+
+</details>
+
+<details>
+<summary><b>🌐 Web & Outsource</b></summary>
+
+| Repo | Topic |
+|------|-------|
+| [Outsource_manager](https://github.com/VuVietAnh2309/Outsource_manager) | Outsource project manager (Next.js) |
+| [Koncept_team](https://github.com/VuVietAnh2309/Koncept_team) | Team website (Next.js) |
+| [VietFeast](https://github.com/VuVietAnh2309/VietFeast) | Vietnamese cuisine platform |
+| [NodeJS_prj](https://github.com/VuVietAnh2309/NodeJS_prj) | Node.js project |
+
+</details>
+
+<details>
+<summary><b>📚 Study, Coursework & Competitions</b></summary>
+
+| Repo | Topic |
+|------|-------|
+| [HPC---Laplace](https://github.com/VuVietAnh2309/HPC---Laplace) | HPC course — SOR red-black Laplace solver in C |
+| [CV_aasignment](https://github.com/VuVietAnh2309/CV_aasignment) | Computer vision assignment |
+| [WIDS_datathon_2025](https://github.com/VuVietAnh2309/WIDS_datathon_2025) | WiDS Datathon 2025 |
+| [MAVEN_PRJ](https://github.com/VuVietAnh2309/MAVEN_PRJ) | Java / Maven practice |
+| [NodeJS_basic](https://github.com/VuVietAnh2309/NodeJS_basic) | Node.js fundamentals |
+
+</details>
+
 ---
 
 ## 🎓 Education & Certifications
@@ -299,7 +373,17 @@ PP-OCRv5 (detect + recognise)
 <sub>All cards below are generated inside this repo by GitHub Actions and committed as static SVGs — no external service to go down.</sub>
 
 <p align="center">
-  <img src="assets/metrics.svg" alt="GitHub metrics" width="80%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+    <img src="assets/activity.svg" alt="Weekly contribution activity" width="90%"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+    <img src="assets/metrics.svg" alt="GitHub metrics" width="80%"/>
+  </picture>
 </p>
 
 <p align="center">
