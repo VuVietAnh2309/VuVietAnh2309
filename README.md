@@ -219,8 +219,9 @@ PP-OCRv5 (detect + recognise)
 | Dr. Kate Han & [Dr. Tien Thanh Nguyen](https://scholar.google.com/citations?hl=en&user=Pjxn9IUAAAAJ) <sub>🎓</sub> | Robert Gordon University <sub>(T.T. Nguyen)</sub> | Mar 2023 | Machine Learning & Ensemble Learning · Genetic Algorithms · statistical testing |
 | [Assoc. Prof. Pham Van Hai](https://scholar.google.com/citations?hl=en&user=C0XxcJcAAAAJ) <sub>🎓</sub> | HUST — SoICT | Sep 2023 | Computer Vision & Deep Learning |
 | [Dr. Pham Danh Tuyen](https://scholar.google.com/citations?hl=en&user=z0ThpI3yfS8C) <sub>🎓</sub> | [PTIT](https://sea.ptit.edu.vn/ts-pham-danh-tuyen/) — School of Electronics Engineering 1 | Dec 2024 | Computer Vision · image processing · machine learning on edge devices |
+| [Dr. Dinh Phu Hung](https://orcid.org/0000-0002-8050-4086) | [Thuyloi University](https://www.tlu.edu.vn/) — Faculty of Information Technology | 2026 | Multimodal medical image fusion · image enhancement |
 
-<sub>🎓 = Google Scholar</sub>
+<sub>🎓 = Google Scholar · links without 🎓 go to ORCID</sub>
 
 **Other work:** imputation survey on 15 UCI datasets — SimpleImputer, KNN, MICE, GINN evaluated for downstream classification.
 
