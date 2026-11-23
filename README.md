@@ -303,12 +303,12 @@ PP-OCRv5 (detect + recognise)
 
 | Repo | What it is |
 |------|-----------|
-| [FER_Lightweight_CNN_based_model](https://github.com/VuVietAnh2309/FER_Lightweight_CNN_based_model) ⭐4 | Code for the **published JAIHC 2026 paper** — attention-based MobileNetV2 for facial expression recognition on edge devices |
-| [Fundamental_RAG](https://github.com/VuVietAnh2309/Fundamental_RAG) ⭐1 | Retrieval-Augmented Generation fundamentals |
-| [adaptive_information_retrival](https://github.com/VuVietAnh2309/adaptive_information_retrival) | Adaptive information retrieval experiments |
-| [medical_fusion_image](https://github.com/VuVietAnh2309/medical_fusion_image) · [Image_fusion_datasets](https://github.com/VuVietAnh2309/Image_fusion_datasets) | Medical image fusion — benchmark toolkit and datasets |
-| [Image_generation](https://github.com/VuVietAnh2309/Image_generation) ⭐2 | Generative image modelling notebooks |
-| [HPC---Laplace](https://github.com/VuVietAnh2309/HPC---Laplace) | High-performance computing — Laplace solver in C |
+| [pattlite-fer](https://github.com/VuVietAnh2309/pattlite-fer) ⭐4 | Code for the **published JAIHC 2026 paper** — attention-based MobileNetV2 for facial expression recognition on edge devices |
+| [rag-fundamentals](https://github.com/VuVietAnh2309/rag-fundamentals) ⭐1 | Retrieval-Augmented Generation fundamentals |
+| [adaptive-ir-rl-reranking](https://github.com/VuVietAnh2309/adaptive-ir-rl-reranking) | Adaptive information retrieval experiments |
+| [corefusion-benchmark](https://github.com/VuVietAnh2309/corefusion-benchmark) · [corefusion-datasets](https://github.com/VuVietAnh2309/corefusion-datasets) | Medical image fusion — benchmark toolkit and datasets |
+| [fer-emotion-augmentation](https://github.com/VuVietAnh2309/fer-emotion-augmentation) ⭐2 | Generative image modelling notebooks |
+| [laplace-sor-mpi](https://github.com/VuVietAnh2309/laplace-sor-mpi) | High-performance computing — Laplace solver in C |
 
 ### 🗂️ All repositories by area
 
@@ -317,15 +317,15 @@ PP-OCRv5 (detect + recognise)
 
 | Repo | Topic |
 |------|-------|
-| [FER_Lightweight_CNN_based_model](https://github.com/VuVietAnh2309/FER_Lightweight_CNN_based_model) | Lightweight facial expression recognition (JAIHC 2026) |
-| [medical_fusion_image](https://github.com/VuVietAnh2309/medical_fusion_image) | Medical image fusion benchmark — 30+ quality metrics, evaluation CLI, 11 baseline outputs |
-| [Image_fusion_datasets](https://github.com/VuVietAnh2309/Image_fusion_datasets) | CoRe-Fusion datasets |
-| [medical_fusion_topic_research](https://github.com/VuVietAnh2309/medical_fusion_topic_research) | Medical image fusion — literature & topic research |
-| [adaptive_information_retrival](https://github.com/VuVietAnh2309/adaptive_information_retrival) | Adaptive information retrieval |
-| [Automated_Essay_Scoring](https://github.com/VuVietAnh2309/Automated_Essay_Scoring) | Automated essay scoring |
-| [Rec_System](https://github.com/VuVietAnh2309/Rec_System) | Reproducing & dissecting MiniRAG — graph RAG for small language models |
-| [Image_generation](https://github.com/VuVietAnh2309/Image_generation) | Generative image modelling |
-| [poster_vlsp2026](https://github.com/VuVietAnh2309/poster_vlsp2026) | VLSP 2026 poster — ViTNumChart, 🥈 2nd Place (LaTeX) |
+| [pattlite-fer](https://github.com/VuVietAnh2309/pattlite-fer) | Lightweight facial expression recognition (JAIHC 2026) |
+| [corefusion-benchmark](https://github.com/VuVietAnh2309/corefusion-benchmark) | Medical image fusion benchmark — 30+ quality metrics, evaluation CLI, 11 baseline outputs |
+| [corefusion-datasets](https://github.com/VuVietAnh2309/corefusion-datasets) | CoRe-Fusion datasets |
+| [medical-image-fusion-notes](https://github.com/VuVietAnh2309/medical-image-fusion-notes) | Medical image fusion — literature & topic research |
+| [adaptive-ir-rl-reranking](https://github.com/VuVietAnh2309/adaptive-ir-rl-reranking) | Adaptive information retrieval |
+| [essay-scoring-deberta-lgbm](https://github.com/VuVietAnh2309/essay-scoring-deberta-lgbm) | Automated essay scoring |
+| [minirag-reproduction](https://github.com/VuVietAnh2309/minirag-reproduction) | Reproducing & dissecting MiniRAG — graph RAG for small language models |
+| [fer-emotion-augmentation](https://github.com/VuVietAnh2309/fer-emotion-augmentation) | Generative image modelling |
+| [vlsp2026-vitnumchart-poster](https://github.com/VuVietAnh2309/vlsp2026-vitnumchart-poster) | VLSP 2026 poster — ViTNumChart, 🥈 2nd Place (LaTeX) |
 
 </details>
 
@@ -335,11 +335,11 @@ PP-OCRv5 (detect + recognise)
 | Repo | Topic |
 |------|-------|
 | [3D_office_agents](https://github.com/VuVietAnh2309/3D_office_agents) | 3D office visualising Claude Code agent sessions |
-| [Fundamental_RAG](https://github.com/VuVietAnh2309/Fundamental_RAG) | Retrieval-Augmented Generation fundamentals |
-| [RAG_Gemini](https://github.com/VuVietAnh2309/RAG_Gemini) | RAG with Gemini |
-| [VA-VSS](https://github.com/VuVietAnh2309/VA-VSS) | Virtual assistant for customer-care Q&A |
-| [Speech-to-text](https://github.com/VuVietAnh2309/Speech-to-text) | Whisper speech-to-text: YouTube → punctuated transcript & summary (Gemini), video → SRT subtitles |
-| [SQL_supported](https://github.com/VuVietAnh2309/SQL_supported) | Text-to-SQL assistant — embedding table retrieval + GPT-4 SQL generation |
+| [rag-fundamentals](https://github.com/VuVietAnh2309/rag-fundamentals) | Retrieval-Augmented Generation fundamentals |
+| [rag-gemini-chatbot](https://github.com/VuVietAnh2309/rag-gemini-chatbot) | RAG with Gemini |
+| [vss-medical-assistant](https://github.com/VuVietAnh2309/vss-medical-assistant) | Virtual assistant for customer-care Q&A |
+| [whisper-speech-to-text](https://github.com/VuVietAnh2309/whisper-speech-to-text) | Whisper speech-to-text: YouTube → punctuated transcript & summary (Gemini), video → SRT subtitles |
+| [text-to-sql-assistant](https://github.com/VuVietAnh2309/text-to-sql-assistant) | Text-to-SQL assistant — embedding table retrieval + GPT-4 SQL generation |
 
 </details>
 
@@ -348,8 +348,8 @@ PP-OCRv5 (detect + recognise)
 
 | Repo | Topic |
 |------|-------|
-| [Drugs_Recommendation](https://github.com/VuVietAnh2309/Drugs_Recommendation) | Drug recommendation |
-| [Drug_Medical_Suggestion](https://github.com/VuVietAnh2309/Drug_Medical_Suggestion) | Medication suggestion with LlamaIndex + MongoDB |
+| [prescription-prediction](https://github.com/VuVietAnh2309/prescription-prediction) | Drug recommendation |
+| [drug-suggestion-llamaindex](https://github.com/VuVietAnh2309/drug-suggestion-llamaindex) | Medication suggestion with LlamaIndex + MongoDB |
 
 </details>
 
@@ -358,9 +358,9 @@ PP-OCRv5 (detect + recognise)
 
 | Repo | Topic |
 |------|-------|
-| [Outsource_manager](https://github.com/VuVietAnh2309/Outsource_manager) | OutsourceHQ — clients, projects, invoices & P&L dashboard (Next.js + Prisma) |
-| [Koncept_team](https://github.com/VuVietAnh2309/Koncept_team) | Landing site for the Koncept software team (Next.js static export) |
-| [VietFeast](https://github.com/VuVietAnh2309/VietFeast) | Vietnamese cuisine platform |
+| [outsource-hq](https://github.com/VuVietAnh2309/outsource-hq) | OutsourceHQ — clients, projects, invoices & P&L dashboard (Next.js + Prisma) |
+| [koncept-landing](https://github.com/VuVietAnh2309/koncept-landing) | Landing site for the Koncept software team (Next.js static export) |
+| [vietfeast](https://github.com/VuVietAnh2309/vietfeast) | Vietnamese cuisine platform |
 
 </details>
 
@@ -369,11 +369,10 @@ PP-OCRv5 (detect + recognise)
 
 | Repo | Topic |
 |------|-------|
-| [HPC---Laplace](https://github.com/VuVietAnh2309/HPC---Laplace) | HPC course — SOR red-black Laplace solver in C |
-| [CV_aasignment](https://github.com/VuVietAnh2309/CV_aasignment) | CV course — rice-grain counting with OpenCV denoising + watershed |
-| [WIDS_datathon_2025](https://github.com/VuVietAnh2309/WIDS_datathon_2025) | WiDS Datathon 2025 |
-| [MAVEN_PRJ](https://github.com/VuVietAnh2309/MAVEN_PRJ) | Java / Maven practice |
-| [NodeJS_basic](https://github.com/VuVietAnh2309/NodeJS_basic) | Node.js learning project — Express + EJS + MySQL CRUD |
+| [laplace-sor-mpi](https://github.com/VuVietAnh2309/laplace-sor-mpi) | HPC course — SOR red-black Laplace solver in C |
+| [wids-datathon-2025-adhd](https://github.com/VuVietAnh2309/wids-datathon-2025-adhd) | WiDS Datathon 2025 |
+| [java-maven-starter](https://github.com/VuVietAnh2309/java-maven-starter) | Java / Maven practice |
+| [express-mysql-crud](https://github.com/VuVietAnh2309/express-mysql-crud) | Node.js learning project — Express + EJS + MySQL CRUD |
 
 </details>
 
