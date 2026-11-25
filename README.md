@@ -42,6 +42,7 @@
 - 🎓 **MSc, Computer Science** @ HUST (Jun 2025 – Present, CPA 3.71/4.0) · BSc (Honours), CPA 3.48/4.0
 - 📄 **Publications** — [IEEE CEC 2024](https://doi.org/10.1109/CEC60901.2024.10612029) · [Springer JAIHC 2026](https://doi.org/10.1007/s12652-026-05116-0)
 - 🏆 **Awards** — 🥈 VLSP 2026 (Top 1 private test) · 🥈 WiDS Datathon 2023 (Kaggle)
+- 📦 **Open source** — [`fusion-metrics`](https://github.com/VuVietAnh2309/fusion-metrics) on [PyPI](https://pypi.org/project/fusion-metrics/): MATLAB-faithful image-fusion quality metrics, verified to ≤ 1e-12
 - ⚡ Day-to-day: **vLLM** (continuous batching, PagedAttention), async GPU batching, Docker → GitLab CI/CD → ArgoCD → K8s
 - 📎 CV: [`resume.pdf`](data/resume.pdf) · 🌐 [vuvietanh2309.github.io](https://vuvietanh2309.github.io/)
 
@@ -304,6 +305,7 @@ PP-OCRv5 (detect + recognise)
 
 | Repo | What it is |
 |------|-----------|
+| [fusion-metrics](https://github.com/VuVietAnh2309/fusion-metrics) [![PyPI](https://img.shields.io/pypi/v/fusion-metrics?color=3775A9&label=PyPI)](https://pypi.org/project/fusion-metrics/) | **Open-source library** — 18 image-fusion quality metrics (Q_ABF, MI, NCIE, FMI, FSIM, VIF…) ported line by line from MATLAB and verified to round-off precision · `pip install fusion-metrics` |
 | [pattlite-fer](https://github.com/VuVietAnh2309/pattlite-fer) ⭐4 | Code for the **published JAIHC 2026 paper** — attention-based MobileNetV2 for facial expression recognition on edge devices |
 | [rag-fundamentals](https://github.com/VuVietAnh2309/rag-fundamentals) ⭐1 | Retrieval-Augmented Generation fundamentals |
 | [adaptive-ir-rl-reranking](https://github.com/VuVietAnh2309/adaptive-ir-rl-reranking) | Adaptive information retrieval experiments |
@@ -319,6 +321,7 @@ PP-OCRv5 (detect + recognise)
 | Repo | Topic |
 |------|-------|
 | [pattlite-fer](https://github.com/VuVietAnh2309/pattlite-fer) | Lightweight facial expression recognition (JAIHC 2026) |
+| [fusion-metrics](https://github.com/VuVietAnh2309/fusion-metrics) | Image-fusion evaluation metrics library on PyPI, MATLAB-verified |
 | [corefusion-benchmark](https://github.com/VuVietAnh2309/corefusion-benchmark) | Medical image fusion benchmark — 30+ quality metrics, evaluation CLI, 11 baseline outputs |
 | [corefusion-datasets](https://github.com/VuVietAnh2309/corefusion-datasets) | CoRe-Fusion datasets |
 | [medical-image-fusion-notes](https://github.com/VuVietAnh2309/medical-image-fusion-notes) | Medical image fusion — literature & topic research |
