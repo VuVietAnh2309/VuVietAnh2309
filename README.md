@@ -322,7 +322,7 @@ PP-OCRv5 (detect + recognise)
 |------|-------|
 | [pattlite-fer](https://github.com/VuVietAnh2309/pattlite-fer) | Lightweight facial expression recognition (JAIHC 2026) |
 | [fusion-metrics](https://github.com/VuVietAnh2309/fusion-metrics) | Image-fusion evaluation metrics library on PyPI, MATLAB-verified |
-| [corefusion-benchmark](https://github.com/VuVietAnh2309/corefusion-benchmark) | Medical image fusion benchmark — 30+ quality metrics, evaluation CLI, 11 baseline outputs |
+| [corefusion-benchmark](https://github.com/VuVietAnh2309/corefusion-benchmark) | Medical image fusion benchmark — evaluation CLI and outputs of 11 SOTA baselines (metrics: fusion-metrics) |
 | [corefusion-datasets](https://github.com/VuVietAnh2309/corefusion-datasets) | CoRe-Fusion datasets |
 | [medical-image-fusion-notes](https://github.com/VuVietAnh2309/medical-image-fusion-notes) | Medical image fusion — literature & topic research |
 | [adaptive-ir-rl-reranking](https://github.com/VuVietAnh2309/adaptive-ir-rl-reranking) | Adaptive information retrieval |
