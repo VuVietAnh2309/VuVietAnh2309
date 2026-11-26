@@ -46,6 +46,18 @@
 - ⚡ Day-to-day: **vLLM** (continuous batching, PagedAttention), async GPU batching, Docker → GitLab CI/CD → ArgoCD → K8s
 - 📎 CV: [`resume.pdf`](data/resume.pdf) · 🌐 [vuvietanh2309.github.io](https://vuvietanh2309.github.io/)
 
+### ⚡ Latest
+
+<!-- LATEST:START -->
+
+- 📦 [`fusion-metrics` **v1.0.1**](https://github.com/VuVietAnh2309/fusion-metrics/releases/tag/v1.0.1) released yesterday
+- 📈 **162** PyPI downloads in the last 30 days
+- 🧭 **18** metrics shipped · **15** more on the [roadmap](https://github.com/VuVietAnh2309/fusion-metrics/issues?q=is%3Aopen+label%3Ametric-port)
+- 🏷️ [`pattlite-fer` v1.0.0](https://github.com/VuVietAnh2309/pattlite-fer/releases/tag/v1.0.0) released 3 days ago
+
+<sub>Auto-updated daily by GitHub Actions · last run 26 Nov 2026</sub>
+<!-- LATEST:END -->
+
 ---
 
 ## 💼 Experience

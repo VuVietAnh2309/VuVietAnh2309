@@ -92,11 +92,18 @@ jobs:
             assets/snake.svg
             assets/snake-dark.svg?palette=github-dark
 
+      # Mục "⚡ Latest" trong README: release mới nhất, lượt tải PyPI, tiến độ roadmap.
+      # Nguồn nào lỗi thì bỏ qua dòng đó, không làm hỏng README.
+      - name: Refresh "Latest" section in README
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/latest.py VuVietAnh2309 README.md
+
       # [skip ci] + commit bằng GITHUB_TOKEN => không tự trigger lại workflow.
       - name: Commit refreshed assets
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore(assets): refresh profile cards [skip ci]"
-          file_pattern: assets/metrics.svg assets/metrics-dark.svg assets/activity.svg assets/activity-dark.svg assets/snake.svg assets/snake-dark.svg
+          file_pattern: assets/metrics.svg assets/metrics-dark.svg assets/activity.svg assets/activity-dark.svg assets/snake.svg assets/snake-dark.svg README.md
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
