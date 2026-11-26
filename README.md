@@ -307,7 +307,7 @@ PP-OCRv5 (detect + recognise)
 |------|-----------|
 | [fusion-metrics](https://github.com/VuVietAnh2309/fusion-metrics) [![PyPI](https://img.shields.io/pypi/v/fusion-metrics?color=3775A9&label=PyPI)](https://pypi.org/project/fusion-metrics/) | **Open-source library** — 18 image-fusion quality metrics (Q_ABF, MI, NCIE, FMI, FSIM, VIF…) ported line by line from MATLAB and verified to round-off precision · `pip install fusion-metrics` |
 | [pattlite-fer](https://github.com/VuVietAnh2309/pattlite-fer) ⭐4 | Code for the **published JAIHC 2026 paper** — attention-based MobileNetV2 for facial expression recognition on edge devices |
-| [rag-fundamentals](https://github.com/VuVietAnh2309/rag-fundamentals) ⭐1 | Retrieval-Augmented Generation fundamentals |
+| [minirag-reproduction](https://github.com/VuVietAnh2309/minirag-reproduction) | Reproducing & dissecting MiniRAG — graph RAG for small language models |
 | [adaptive-ir-rl-reranking](https://github.com/VuVietAnh2309/adaptive-ir-rl-reranking) | Adaptive information retrieval experiments |
 | [corefusion-benchmark](https://github.com/VuVietAnh2309/corefusion-benchmark) · [corefusion-datasets](https://github.com/VuVietAnh2309/corefusion-datasets) | Medical image fusion — benchmark toolkit and datasets |
 | [fer-emotion-augmentation](https://github.com/VuVietAnh2309/fer-emotion-augmentation) ⭐2 | Generative image modelling notebooks |
@@ -339,7 +339,6 @@ PP-OCRv5 (detect + recognise)
 | Repo | Topic |
 |------|-------|
 | [3d-office-agents](https://github.com/VuVietAnh2309/3d-office-agents) | 3D office visualising Claude Code agent sessions |
-| [rag-fundamentals](https://github.com/VuVietAnh2309/rag-fundamentals) | Retrieval-Augmented Generation fundamentals |
 | [rag-gemini-chatbot](https://github.com/VuVietAnh2309/rag-gemini-chatbot) | RAG with Gemini |
 | [vss-medical-assistant](https://github.com/VuVietAnh2309/vss-medical-assistant) | Virtual assistant for customer-care Q&A |
 | [whisper-speech-to-text](https://github.com/VuVietAnh2309/whisper-speech-to-text) | Whisper speech-to-text: YouTube → punctuated transcript & summary (Gemini), video → SRT subtitles |
