@@ -374,8 +374,6 @@ PP-OCRv5 (detect + recognise)
 |------|-------|
 | [laplace-sor-mpi](https://github.com/VuVietAnh2309/laplace-sor-mpi) | HPC course — SOR red-black Laplace solver in C |
 | [wids-datathon-2025-adhd](https://github.com/VuVietAnh2309/wids-datathon-2025-adhd) | WiDS Datathon 2025 |
-| [java-maven-starter](https://github.com/VuVietAnh2309/java-maven-starter) | Java / Maven practice |
-| [express-mysql-crud](https://github.com/VuVietAnh2309/express-mysql-crud) | Node.js learning project — Express + EJS + MySQL CRUD |
 
 </details>
 
