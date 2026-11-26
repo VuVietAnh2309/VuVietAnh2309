@@ -44,6 +44,7 @@
 - 🏆 **Awards** — 🥈 VLSP 2026 (Top 1 private test) · 🥈 WiDS Datathon 2023 (Kaggle)
 - 📦 **Open source** — [`fusion-metrics`](https://github.com/VuVietAnh2309/fusion-metrics) on [PyPI](https://pypi.org/project/fusion-metrics/): MATLAB-faithful image-fusion quality metrics, verified to ≤ 1e-12
 - ⚡ Day-to-day: **vLLM** (continuous batching, PagedAttention), async GPU batching, Docker → GitLab CI/CD → ArgoCD → K8s
+- 🤝 **Open to** research collaborations on image fusion & medical imaging · contributions to [`fusion-metrics`](https://github.com/VuVietAnh2309/fusion-metrics) are welcome
 - 📎 CV: [`resume.pdf`](data/resume.pdf) · 🌐 [vuvietanh2309.github.io](https://vuvietanh2309.github.io/)
 
 ### ⚡ Latest
@@ -354,7 +355,6 @@ PP-OCRv5 (detect + recognise)
 | [rag-gemini-chatbot](https://github.com/VuVietAnh2309/rag-gemini-chatbot) | RAG with Gemini |
 | [vss-medical-assistant](https://github.com/VuVietAnh2309/vss-medical-assistant) | Virtual assistant for customer-care Q&A |
 | [whisper-speech-to-text](https://github.com/VuVietAnh2309/whisper-speech-to-text) | Whisper speech-to-text: YouTube → punctuated transcript & summary (Gemini), video → SRT subtitles |
-| [text-to-sql-assistant](https://github.com/VuVietAnh2309/text-to-sql-assistant) | Text-to-SQL assistant — embedding table retrieval + GPT-4 SQL generation |
 
 </details>
 
