@@ -338,7 +338,7 @@ PP-OCRv5 (detect + recognise)
 
 | Repo | Topic |
 |------|-------|
-| [3D_office_agents](https://github.com/VuVietAnh2309/3D_office_agents) | 3D office visualising Claude Code agent sessions |
+| [3d-office-agents](https://github.com/VuVietAnh2309/3d-office-agents) | 3D office visualising Claude Code agent sessions |
 | [rag-fundamentals](https://github.com/VuVietAnh2309/rag-fundamentals) | Retrieval-Augmented Generation fundamentals |
 | [rag-gemini-chatbot](https://github.com/VuVietAnh2309/rag-gemini-chatbot) | RAG with Gemini |
 | [vss-medical-assistant](https://github.com/VuVietAnh2309/vss-medical-assistant) | Virtual assistant for customer-care Q&A |
