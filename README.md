@@ -51,12 +51,12 @@
 
 <!-- LATEST:START -->
 
-- 📦 [`fusion-metrics` **v1.0.1**](https://github.com/VuVietAnh2309/fusion-metrics/releases/tag/v1.0.1) released yesterday
-- 📈 **162** PyPI downloads in the last 30 days
-- 🧭 **18** metrics shipped · **15** more on the [roadmap](https://github.com/VuVietAnh2309/fusion-metrics/issues?q=is%3Aopen+label%3Ametric-port)
-- 🏷️ [`pattlite-fer` v1.0.0](https://github.com/VuVietAnh2309/pattlite-fer/releases/tag/v1.0.0) released 3 days ago
+- 📦 [`fusion-metrics` **v1.1.0**](https://github.com/VuVietAnh2309/fusion-metrics/releases/tag/v1.1.0) released today
+- 📈 **184** PyPI downloads in the last 30 days
+- 🧭 **24** metrics shipped · **9** more on the [roadmap](https://github.com/VuVietAnh2309/fusion-metrics/issues?q=is%3Aopen+label%3Ametric-port)
+- 🏷️ [`pattlite-fer` v1.0.0](https://github.com/VuVietAnh2309/pattlite-fer/releases/tag/v1.0.0) released 4 days ago
 
-<sub>Auto-updated daily by GitHub Actions · last run 26 Nov 2026</sub>
+<sub>Auto-updated daily by GitHub Actions · last run 27 Nov 2026</sub>
 <!-- LATEST:END -->
 
 ---
