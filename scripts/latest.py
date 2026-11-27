@@ -20,7 +20,6 @@ import urllib.request
 USER = sys.argv[1] if len(sys.argv) > 1 else "VuVietAnh2309"
 README = sys.argv[2] if len(sys.argv) > 2 else "README.md"
 PKG_REPO = "fusion-metrics"
-BASE_METRICS = 18  # metrics shipped in fusion-metrics v1.0; each closed metric-port issue adds one
 START, END = "<!-- LATEST:START -->", "<!-- LATEST:END -->"
 NOW = dt.datetime.now(dt.timezone.utc)
 
@@ -72,12 +71,21 @@ def downloads():
     return f"📈 **{human(n)}** PyPI downloads in the last 30 days"
 
 
+def shipped_metrics():
+    """Count the entries of the METRICS dict in the package's __init__.py on the default branch."""
+    req = urllib.request.Request(f"https://raw.githubusercontent.com/{USER}/{PKG_REPO}/HEAD/fusion_metrics/__init__.py",
+                                 headers={"User-Agent": "profile-readme-latest"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        src = r.read().decode()
+    body = src.split("METRICS = {", 1)[1].split("\n}", 1)[0]
+    return len(re.findall(r'"(\w+)":\s*\(', body))
+
+
 def roadmap():
     items = get(f"https://api.github.com/search/issues?q=repo:{USER}/{PKG_REPO}+label:metric-port&per_page=100")["items"]
-    done = sum(i["state"] == "closed" for i in items)
-    todo = len(items) - done
+    todo = sum(i["state"] == "open" for i in items)
     url = f"https://github.com/{USER}/{PKG_REPO}/issues?q=is%3Aopen+label%3Ametric-port"
-    line = f"🧭 **{BASE_METRICS + done}** metrics shipped"
+    line = f"🧭 **{shipped_metrics()}** metrics shipped"
     return line + (f" · **{todo}** more on the [roadmap]({url})" if todo else " · roadmap complete")
 
 
