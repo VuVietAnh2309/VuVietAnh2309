@@ -52,7 +52,6 @@
 <!-- LATEST:START -->
 
 - 📦 [`fusion-metrics` **v1.2.0**](https://github.com/VuVietAnh2309/fusion-metrics/releases/tag/v1.2.0) released today
-- 📈 **184** PyPI downloads in the last 30 days
 - 🧭 **35** metrics shipped · roadmap complete
 - 🏷️ [`pattlite-fer` v1.0.0](https://github.com/VuVietAnh2309/pattlite-fer/releases/tag/v1.0.0) released 4 days ago
 
