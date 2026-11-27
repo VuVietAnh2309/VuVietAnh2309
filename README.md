@@ -318,7 +318,7 @@ PP-OCRv5 (detect + recognise)
 
 | Repo | What it is |
 |------|-----------|
-| [fusion-metrics](https://github.com/VuVietAnh2309/fusion-metrics) [![PyPI](https://img.shields.io/pypi/v/fusion-metrics?color=3775A9&label=PyPI)](https://pypi.org/project/fusion-metrics/) | **Open-source library** — 18 image-fusion quality metrics (Q_ABF, MI, NCIE, FMI, FSIM, VIF…) ported line by line from MATLAB and verified to round-off precision · `pip install fusion-metrics` |
+| [fusion-metrics](https://github.com/VuVietAnh2309/fusion-metrics) [![PyPI](https://img.shields.io/pypi/v/fusion-metrics?color=3775A9&label=PyPI)](https://pypi.org/project/fusion-metrics/) | **Open-source library** — 24 image-fusion quality metrics (Q_ABF, MI, SSIM, SD, VIF, FSIM…) ported line by line from MATLAB and verified to round-off precision · `pip install fusion-metrics` |
 | [pattlite-fer](https://github.com/VuVietAnh2309/pattlite-fer) ⭐4 | Code for the **published JAIHC 2026 paper** — attention-based MobileNetV2 for facial expression recognition on edge devices |
 | [minirag-reproduction](https://github.com/VuVietAnh2309/minirag-reproduction) | Reproducing & dissecting MiniRAG — graph RAG for small language models |
 | [adaptive-ir-rl-reranking](https://github.com/VuVietAnh2309/adaptive-ir-rl-reranking) | Adaptive information retrieval experiments |
