@@ -51,11 +51,11 @@
 
 <!-- LATEST:START -->
 
-- 📦 [`fusion-metrics` **v1.2.0**](https://github.com/VuVietAnh2309/fusion-metrics/releases/tag/v1.2.0) released today
+- 📦 [`fusion-metrics` **v1.2.0**](https://github.com/VuVietAnh2309/fusion-metrics/releases/tag/v1.2.0) released yesterday
 - 🧭 **35** metrics shipped · roadmap complete
-- 🏷️ [`pattlite-fer` v1.0.0](https://github.com/VuVietAnh2309/pattlite-fer/releases/tag/v1.0.0) released 4 days ago
+- 🏷️ [`pattlite-fer` v1.0.0](https://github.com/VuVietAnh2309/pattlite-fer/releases/tag/v1.0.0) released 5 days ago
 
-<sub>Auto-updated daily by GitHub Actions · last run 27 Nov 2026</sub>
+<sub>Auto-updated daily by GitHub Actions · last run 28 Nov 2026</sub>
 <!-- LATEST:END -->
 
 ---
